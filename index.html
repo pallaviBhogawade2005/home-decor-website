@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CasaNest | Modern Home Decor</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="logo">
+        <i class="fa-solid fa-house"></i>
+        Casa<span>Nest</span>
+    </div>
+
+    <nav id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#products">Collection</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-icons">
+
+        <button id="themeBtn" title="Toggle theme">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <button class="cart-btn">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span id="cartCount">0</span>
+        </button>
+
+        <button class="menu-btn" id="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="small-title">
+            ✦ CURATED FOR YOUR SPACE
+        </p>
+
+        <h1>
+            Make Your Home
+            <span>Feel Like Home.</span>
+        </h1>
+
+        <p class="hero-text">
+            Discover beautiful furniture and timeless decor pieces
+            designed to make your everyday spaces feel warmer,
+            calmer and more beautiful.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#products" class="primary-btn">
+                Explore Collection
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a href="#categories" class="secondary-btn">
+                View Categories
+            </a>
+
+        </div>
+
+        <div class="hero-stats">
+
+            <div>
+                <strong>500+</strong>
+                <span>Decor Pieces</span>
+            </div>
+
+            <div>
+                <strong>12K+</strong>
+                <span>Happy Customers</span>
+            </div>
+
+            <div>
+                <strong>4.9/5</strong>
+                <span>Customer Rating</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <div class="image-card">
+            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=85"
+                 alt="Beautiful living room">
+
+            <div class="floating-card">
+                <div class="mini-icon">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+                <div>
+                    <strong>Handpicked</strong>
+                    <small>Designs for you</small>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CATEGORIES ================= -->
+
+<section class="section" id="categories">
+
+    <div class="section-heading">
+
+        <div>
+            <p class="section-label">EXPLORE</p>
+            <h2>Shop By Category</h2>
+        </div>
+
+        <p>
+            Find everything you need to create a space
+            that reflects your personality.
+        </p>
+
+    </div>
+
+
+    <div class="category-grid">
+
+        <div class="category-card">
+
+            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=700&q=80"
+                 alt="Sofas">
+
+            <div class="category-info">
+                <h3>Furniture</h3>
+                <p>120+ Products</p>
+                <a href="#products">Shop Now →</a>
+            </div>
+
+        </div>
+
+
+        <div class="category-card">
+
+            <img src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=700&q=80"
+                 alt="Home decor">
+
+            <div class="category-info">
+                <h3>Decor</h3>
+                <p>180+ Products</p>
+                <a href="#products">Shop Now →</a>
+            </div>
+
+        </div>
+
+
+        <div class="category-card">
+
+            <img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=700&q=80"
+                 alt="Lighting">
+
+            <div class="category-info">
+                <h3>Lighting</h3>
+                <p>75+ Products</p>
+                <a href="#products">Shop Now →</a>
+            </div>
+
+        </div>
+
+
+        <div class="category-card">
+
+            <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=700&q=80"
+                 alt="Bedroom">
+
+            <div class="category-info">
+                <h3>Bedroom</h3>
+                <p>95+ Products</p>
+                <a href="#products">Shop Now →</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FEATURED PRODUCTS ================= -->
+
+<section class="section products-section" id="products">
+
+    <div class="section-heading">
+
+        <div>
+            <p class="section-label">OUR COLLECTION</p>
+            <h2>Featured Pieces</h2>
+        </div>
+
+        <div class="search-box">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input type="text"
+                   id="searchInput"
+                   placeholder="Search decor...">
+
+        </div>
+
+    </div>
+
+
+    <div class="product-grid" id="productGrid">
+
+        <!-- Product 1 -->
+
+        <div class="product-card" data-name="Velvet Lounge Chair">
+
+            <div class="product-image">
+
+                <img src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?auto=format&fit=crop&w=700&q=80"
+                     alt="Velvet chair">
+
+                <span class="badge">NEW</span>
+
+                <button class="wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p class="product-category">CHAIRS</p>
+
+                <h3>Velvet Lounge Chair</h3>
+
+                <div class="product-bottom">
+
+                    <strong>₹8,499</strong>
+
+                    <button class="add-cart">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Product 2 -->
+
+        <div class="product-card" data-name="Minimal Ceramic Vase">
+
+            <div class="product-image">
+
+                <img src="https://images.unsplash.com/photo-1581783898377-1c85bf937427?auto=format&fit=crop&w=700&q=80"
+                     alt="Ceramic vase">
+
+                <span class="badge sale">SALE</span>
+
+                <button class="wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p class="product-category">DECOR</p>
+
+                <h3>Minimal Ceramic Vase</h3>
+
+                <div class="product-bottom">
+
+                    <strong>₹1,299</strong>
+
+                    <button class="add-cart">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Product 3 -->
+
+        <div class="product-card" data-name="Wooden Side Table">
+
+            <div class="product-image">
+
+                <img src="https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&w=700&q=80"
+                     alt="Wooden table">
+
+                <button class="wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p class="product-category">FURNITURE</p>
+
+                <h3>Wooden Side Table</h3>
+
+                <div class="product-bottom">
+
+                    <strong>₹4,799</strong>
+
+                    <button class="add-cart">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Product 4 -->
+
+        <div class="product-card" data-name="Modern Pendant Lamp">
+
+            <div class="product-image">
+
+                <img src="https://images.unsplash.com/photo-1524484485831-a92ffc0de03f?auto=format&fit=crop&w=700&q=80"
+                     alt="Pendant lamp">
+
+                <button class="wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p class="product-category">LIGHTING</p>
+
+                <h3>Modern Pendant Lamp</h3>
+
+                <div class="product-bottom">
+
+                    <strong>₹3,499</strong>
+
+                    <button class="add-cart">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Product 5 -->
+
+        <div class="product-card" data-name="Soft Linen Cushion">
+
+            <div class="product-image">
+
+                <img src="https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=700&q=80"
+                     alt="Linen cushion">
+
+                <button class="wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p class="product-category">TEXTILES</p>
+
+                <h3>Soft Linen Cushion</h3>
+
+                <div class="product-bottom">
+
+                    <strong>₹899</strong>
+
+                    <button class="add-cart">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Product 6 -->
+
+        <div class="product-card" data-name="Round Wall Mirror">
+
+            <div class="product-image">
+
+                <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=700&q=80"
+                     alt="Round mirror">
+
+                <button class="wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                </button>
+
+            </div>
+
+            <div class="product-info">
+
+                <p class="product-category">WALL DECOR</p>
+
+                <h3>Round Wall Mirror</h3>
+
+                <div class="product-bottom">
+
+                    <strong>₹2,799</strong>
+
+                    <button class="add-cart">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="noProducts" class="no-products">
+        No products found.
+    </div>
+
+</section>
+
+
+<!-- ================= PROMO ================= -->
+
+<section class="promo">
+
+    <div class="promo-content">
+
+        <p>MAKE YOUR SPACE BEAUTIFUL</p>
+
+        <h2>
+            A beautiful home
+            starts with one beautiful piece.
+        </h2>
+
+        <a href="#products" class="primary-btn">
+            Discover More
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+    <div class="promo-image">
+
+        <img src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=1000&q=85"
+             alt="Elegant interior">
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about section" id="about">
+
+    <div class="about-image">
+
+        <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=900&q=85"
+             alt="Beautiful home interior">
+
+    </div>
+
+    <div class="about-content">
+
+        <p class="section-label">OUR STORY</p>
+
+        <h2>Designed for the way you live.</h2>
+
+        <p>
+            CasaNest was created for people who believe that
+            a home should be more than just a place to live.
+            It should tell your story.
+        </p>
+
+        <p>
+            We carefully curate furniture and decor that combine
+            timeless design, comfort and everyday functionality.
+        </p>
+
+        <div class="about-features">
+
+            <div>
+                <i class="fa-solid fa-leaf"></i>
+                <span>Thoughtful Designs</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-heart"></i>
+                <span>Made With Love</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-truck"></i>
+                <span>Easy Delivery</span>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>Secure Shopping</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= NEWSLETTER ================= -->
+
+<section class="newsletter" id="contact">
+
+    <div>
+
+        <p class="section-label">STAY INSPIRED</p>
+
+        <h2>Get beautiful ideas delivered.</h2>
+
+        <p>
+            Subscribe for home styling tips, new collections
+            and exclusive offers.
+        </p>
+
+    </div>
+
+    <form id="newsletterForm">
+
+        <input type="email"
+               id="email"
+               placeholder="Enter your email"
+               required>
+
+        <button type="submit">
+            Subscribe
+        </button>
+
+    </form>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="footer-main">
+
+        <div class="footer-brand">
+
+            <div class="logo">
+                <i class="fa-solid fa-house"></i>
+                Casa<span>Nest</span>
+            </div>
+
+            <p>
+                Creating beautiful spaces,
+                one piece at a time.
+            </p>
+
+            <div class="social-icons">
+
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Shop</h4>
+
+            <a href="#products">Furniture</a>
+            <a href="#products">Decor</a>
+            <a href="#products">Lighting</a>
+            <a href="#products">Bedroom</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Company</h4>
+
+            <a href="#about">About Us</a>
+            <a href="#">Our Story</a>
+            <a href="#">Careers</a>
+            <a href="#">Contact</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>Help</h4>
+
+            <a href="#">Shipping</a>
+            <a href="#">Returns</a>
+            <a href="#">FAQs</a>
+            <a href="#">Privacy</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>© 2026 CasaNest. All rights reserved.</p>
+
+        <p>Made with ♥ for beautiful homes.</p>
+
+    </div>
+
+</footer>
+
+
+<!-- Toast -->
+
+<div id="toast" class="toast">
+    <i class="fa-solid fa-check"></i>
+    <span>Added to cart!</span>
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
